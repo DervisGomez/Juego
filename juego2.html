@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/juego2.css">
+	<title>Juego del Gato</title>
+</head>
+<body>
+	<section >
+		<div class="contenido">
+			<div id="l1" class="linea"></div>
+			<div id="l2" class="linea"></div>
+			<div id="l0" class="linea"></div>
+			<div id="l3" class="linea2"></div>
+			<div id="l4" class="linea2"></div>
+			<div id="l5" class="linea2"></div>
+			<div id="l6" class="linea"></div>
+			<div id="l7" class="linea"></div>
+			<div id="j00" class="jugada" onclick="jugar('#j00',0,0)">
+				<h1 id="a00"></h1>
+			</div>
+			<div id="j01" class="jugada" onclick="jugar('#j01',0,1)">
+				<h1 id="a01"></h1>
+			</div>
+			<div id="j02" class="jugada" onclick="jugar('#j02',0,2)">
+				<h1 id="a02" ></h1>
+			</div>
+			<div id="j10" class="jugada" onclick="jugar('#j10',1,0)">
+				<h1 id="a10"></h1>
+			</div>
+			<div id="j11" class="jugada" onclick="jugar('#j11',1,1)">
+				<h1 id="a11"></h1>
+			</div>
+			<div id="j12" class="jugada" onclick="jugar('#j12',1,2)">
+				<h1 id="a12"></h1>
+			</div>
+			<div id="j20" class="jugada" onclick="jugar('#j20',2,0)">
+				<h1 id="a20"></h1>
+			</div>
+			<div id="j21"  class="jugada" onclick="jugar('#j21',2,1)">
+				<h1 id="a21"></h1>
+			</div>
+			<div id="j22" class="jugada" onclick="jugar('#j22',2,2)">
+				<h1 id="a22"></h1>
+			</div>
+		</div>
+		<div class="sesion">
+			<h1>Jugadores</h1>
+			<div id="jugar">
+				<input id="jue1" class="dato" type="text" name="" maxlength="10" placeholder="Jugador 1">
+				<input id="jue2" class="dato" type="text" name="" maxlength="10" placeholder="Jugador 2">
+				<div class="boton" onclick="iniciar(jue1,jue2)">Iniciar</div>
+			</div>
+			<div id="jugando">
+				<img src="img/turno.png">
+				<h3 id="jugador1">Jugador1</h3>
+				<h1 id="ganar1">0</h1>
+				<h3 id="jugador2">Jugador2</h3>
+				<h1 id="ganar2">0</h1>
+				<div class="boton" onclick="reiniciarJuego()">Reiniciar</div>
+			</div>
+			<div id="creador">
+				<h5 >Creado por</h5>
+				<h4 id="ganar1">Ing. Dervis G&oacutemez</h4>
+			</div>
+		</div>
+
+	</section>
+	<SCRIPT LANGUAGE="JavaScript" src="js/juego2.js"></SCRIPT>
+</body>

@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgba(0,169,186,1);
+	color: rgba(255,255,255,1);
+	font-size: 1em;
+	text-align: center;
+}
+section{
+	min-width: 600px;
+	width: 80%;
+	text-align: center;
+	margin: 50px auto;
+	position: relative;
+}
+.contenido{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+}
+.linea{
+	position: absolute;
+	width: 12px;
+	background: rgb(40,40,40);
+}
+#l0{
+	top:5%;
+	left: 5%;
+}
+#l1{
+	top:5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#l2{
+	top:5%;
+	right: 5%;
+}
+.linea2{
+	position: absolute;
+	height: 12px;
+	background: rgb(40,40,40);
+	width: 90%;
+}
+#l3{
+	top: 5%;
+	left: 5%;
+}
+#l4{
+	top: 50%;
+	left: 5%;
+	transform: translateY(-50%);
+}
+#l5{
+	bottom: 5%;
+	left: 5%;
+}
+#l6{
+	transform: rotate(53deg);
+	-webkit-transform: rotate(53deg);
+    -moz-transform: rotate(53deg);
+    -o-transform: rotate(53deg);
+}
+#l7{
+	transform: rotate(-53deg);
+	-webkit-transform: rotate(-53deg);
+    -moz-transform: rotate(-53deg);
+    -o-transform: rotate(-53deg);
+}
+.jugada{
+	background: rgb(200,200,200);
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	border-radius: 50%;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+
+	box-shadow: 0 0 10px rgb(0,0,0);
+}
+#j00{
+	left: 6%;
+	top: 6%;
+}
+#j01{
+	left: 50%;
+	top: 5%;
+}
+#j02{
+	left: 94%;
+	top: 6%;
+}
+#j10{
+	left: 5%;
+	top: 50%;
+}
+#j11{
+	left: 50%;
+	top: 50%;
+}
+#j12{
+	left: 95%;
+	top: 50%;
+}
+#j20{
+	left: 6%;
+	top: 94%;
+}
+#j21{
+	left: 50%;
+	top: 95%;
+}
+#j22{
+	left: 94%;
+	top: 94%;
+}
+.sesion{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.sesion h1{
+	margin-bottom: 1em;
+}
+.sesion h3{
+	color: black;
+	margin: 0.5em;
+}
+.dato{
+	width: 90%;
+	margin: 1em auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.boton{
+	width: 90%;
+	margin: 1em auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background: rgb(62,64,149);
+	cursor: pointer;
+}
+.boton:hover{
+	background: rgba(62,64,149,0.8);
+}
+#creador{
+	position: absolute;
+	bottom: 4%;
+	right: 3.5%;
+	color: rgb(40,40,40);
+}
+#jugador1{
+	color:  green;
+	text-shadow: 0 0 2px rgb(0,0,0);
+}
+#jugador2{
+	color:  red;
+	text-shadow: 0 0 2px rgb(0,0,0);
+}
+#jugando{
+	position: relative;
+}
+#jugando img{
+	position: absolute;
+	left: 5%;
+	top: 0em;
+}

@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgba(0,169,186,1);
+	color: rgba(255,255,255,1);
+	font-size: 1em;
+	text-align: center;
+}
+section{
+	min-width: 600px;
+	width: 80%;
+	text-align: center;
+	margin: 50px auto;
+	position: relative;
+}
+.contenido{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+}
+.linea{
+	position: absolute;
+	width: 16px;
+	background: rgb(40,40,40);
+	transform: rotate(3deg);
+ 	-webkit-transform: rotate(3deg);
+ 	-moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+}
+#l1{
+	left: 33%;
+}
+#l2{
+	right: 33%;
+}
+.linea2{
+	position: absolute;
+	height: 16px;
+	background: rgb(40,40,40);
+	width: 92%;
+}
+#l3{
+	top: 32%;
+	left: 4%;
+}
+#l4{
+	bottom: 32%;
+	left: 3%;
+}
+.jugada{
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	vertical-aling:top;
+	text-align: center;
+	width:32%;
+	color: rgb(255,255,255);
+	cursor: pointer;
+}
+.jugada h1{
+	font-size: 4em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.sesion{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.sesion h1{
+	margin-bottom: 1em;
+}
+.sesion h3{
+	color: black;
+	margin: 0.5em;
+}
+.dato{
+	width: 90%;
+	margin: 1em auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.boton{
+	width: 90%;
+	margin: 1em auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background: rgb(62,64,149);
+	cursor: pointer;
+}
+.boton:hover{
+	background: rgba(62,64,149,0.8);
+}
+#creador{
+	position: absolute;
+	bottom: 0;
+	right: 3.5%;
+	color: rgb(40,40,40);
+}
+#jugando{
+	position: relative;
+}
+#jugando img{
+	position: absolute;
+	left: 5%;
+	top: 0em;
+}

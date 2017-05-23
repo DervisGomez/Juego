@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/juego3.css">
+	<title>Juego del Gato</title>
+</head>
+<body>
+	<section >
+		<div class="contenido">
+			<div onclick="jugar('ima1',0)">
+				<img id="ima1" src="img/0.jpg">
+			</div><div onclick="jugar('ima2',1)">
+				<img id="ima2"  src="img/0.jpg">
+			</div><div onclick="jugar('ima3',2)">
+				<img id="ima3"  src="img/0.jpg">
+			</div><div onclick="jugar('ima4',3)">
+				<img id="ima4"  src="img/0.jpg">
+			</div><div onclick="jugar('ima5',4)">
+				<img id="ima5"  src="img/0.jpg">
+			</div><div onclick="jugar('ima6',5)">
+				<img id="ima6"  src="img/0.jpg">
+			</div><div onclick="jugar('ima7',6)">
+				<img id="ima7"  src="img/0.jpg">
+			</div><div onclick="jugar('ima8',7)">
+				<img id="ima8"  src="img/0.jpg">
+			</div><div onclick="jugar('ima9',8)">
+				<img id="ima9"  src="img/0.jpg">
+			</div><div onclick="jugar('ima10',9)">
+				<img id="ima10"  src="img/0.jpg">
+			</div><div onclick="jugar('ima11',10)">
+				<img id="ima11"  src="img/0.jpg">
+			</div><div onclick="jugar('ima12',11)">
+				<img id="ima12"  src="img/0.jpg">
+			</div><div onclick="jugar('ima13',12)">
+				<img id="ima13"  src="img/0.jpg">
+			</div><div onclick="jugar('ima14',13)">
+				<img id="ima14"  src="img/0.jpg">
+			</div><div onclick="jugar('ima15',14)">
+				<img id="ima15"  src="img/0.jpg">
+			</div><div onclick="jugar('ima16',15)">
+				<img id="ima16"  src="img/0.jpg">
+			</div><div onclick="jugar('ima17',16)">
+				<img id="ima17"  src="img/0.jpg">
+			</div><div onclick="jugar('ima18',17)">
+				<img id="ima18"  src="img/0.jpg">
+			</div><div onclick="jugar('ima19',18)">
+				<img id="ima19"  src="img/0.jpg">
+			</div><div onclick="jugar('ima20',19)">
+				<img id="ima20"  src="img/0.jpg">
+			</div><div onclick="jugar('ima21',20)">
+				<img id="ima21"  src="img/0.jpg">
+			</div><div onclick="jugar('ima22',21)">
+				<img id="ima22"  src="img/0.jpg">
+			</div><div onclick="jugar('ima23',22)">
+				<img id="ima23"  src="img/0.jpg">
+			</div><div onclick="jugar('ima24',23)">
+				<img id="ima24"  src="img/0.jpg">
+			</div>		
+		</div>
+		<div class="sesion">
+			<h1>Jugadores</h1>
+			<div id="jugar">
+				<input id="jue1" class="dato" type="text" name="" maxlength="10" placeholder="Jugador 1">
+				<input id="jue2" class="dato" type="text" name="" maxlength="10" placeholder="Jugador 2">
+				<div class="boton" onclick="iniciar(jue1,jue2)">Iniciar</div>
+			</div>
+			<div id="jugando">
+				<img src="img/turno.png">
+				<h3 id="jugador1">Jugador1</h3>
+				<h1 id="ganar1">0</h1>
+				<h3 id="jugador2">Jugador2</h3>
+				<h1 id="ganar2">0</h1>
+				<div class="boton" onclick="reiniciarJuego()">Reiniciar</div>
+			</div>
+			<div id="creador">
+				<h5 id="jugador1">Creado por</h5>
+				<h4 id="ganar1">Ing. Dervis G&oacutemez</h4>
+			</div>
+		</div>
+
+	</section>
+	<SCRIPT LANGUAGE="JavaScript" src="js/juego3.js"></SCRIPT>
+</body>

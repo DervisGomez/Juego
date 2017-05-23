@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgba(0,169,186,1);
+	color: rgba(255,255,255,1);
+	font-size: 1em;
+	text-align: center;
+}
+section{
+	min-width: 600px;
+	width: 80%;
+	text-align: center;
+	margin: 50px auto;
+	position: relative;
+}
+.contenido{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+}
+.contenido div{
+	width: 14%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 1%;
+	cursor: pointer;
+}
+.contenido div img{
+	width: 100%;
+	box-shadow: 0 0 4px rgb(0,0,0);
+}
+
+.sesion{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.sesion h1{
+	margin-bottom: 1em;
+}
+.sesion h3{
+	color: black;
+	margin: 0.5em;
+}
+.dato{
+	width: 90%;
+	margin: 1em auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.boton{
+	width: 90%;
+	margin: 1em auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background: rgb(62,64,149);
+	cursor: pointer;
+}
+.boton:hover{
+	background: rgba(62,64,149,0.8);
+}
+#creador{
+	position: absolute;
+	bottom: 2%;
+	right: 3.5%;
+	color: rgb(40,40,40);
+}
+#jugando{
+	position: relative;
+}
+#jugando img{
+	position: absolute;
+	left: 5%;
+	top: 0em;
+}
